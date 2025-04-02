@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Skid steering drive plugin, according to:
+       http://gazebosim.org/tutorials?tut=ros_gzplugins#SkidSteeringDrive -->
+    <!-- <gazebo>
+        <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
+            <updateRate>100.0</updateRate>
+            <robotNamespace>/</robotNamespace>
+            <leftFrontJoint>frontleftwheeljoint</leftFrontJoint>
+            <rightFrontJoint>frontrightwheeljoint</rightFrontJoint>
+            <leftRearJoint>backleftwheeljoint</leftRearJoint>
+            <rightRearJoint>backrightwheeljoint</rightRearJoint>
+            <wheelSeparation>1.52676</wheelSeparation>
+            <wheelDiameter>0.796</wheelDiameter>
+            <robotBaseFrame>base_link</robotBaseFrame>
+            <torque>200</torque>
+            <covariance_x>0.0001</covariance_x>
+            <covariance_y>0.0001</covariance_y>
+            <covariance_yaw>0.01</covariance_yaw>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <commandTopic>cmd_vel</commandTopic>
+            <broadcastTF>0</broadcastTF>
+        </plugin>
+    </gazebo> -->
+    <gazebo>
+      <plugin name="two_wheeled_robot_diff_drive" filename="libgazebo_ros_diff_drive.so">
+        <!-- <ros>
+          <namespace>/demo</namespace>
+          <remapping>cmd_vel:=cmd_demo</remapping>
+          <remapping>odom:=odom_demo</remapping>
+        </ros> -->
+
+        <!-- Number of wheel pairs -->
+        <num_wheel_pairs>2</num_wheel_pairs>
+        
+        <!-- wheels0 -->
+        <left_joint>frontleftwheeljoint</left_joint>
+        <right_joint>frontrightwheeljoint</right_joint>
+
+        <!-- wheels1-->
+        <left_joint>backleftwheeljoint</left_joint>
+        <right_joint>backrightwheeljoint</right_joint>
+
+        <!-- kinematics -->
+        <wheel_separation>1.52676</wheel_separation>
+        <wheel_separation>1.52676</wheel_separation>
+
+        <wheel_diameter>0.796</wheel_diameter>
+        <wheel_diameter>0.796</wheel_diameter>
+
+        <!-- limits -->
+        <max_wheel_torque>50</max_wheel_torque>
+        <max_wheel_acceleration>200.0</max_wheel_acceleration>
+
+        <!-- output -->
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+        <publish_wheel_tf>true</publish_wheel_tf>
+
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+      </plugin>
+      
+    </gazebo>
+
+    <!-- <gazebo>
+      <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+        <update_rate>50</update_rate>
+      </plugin>
+    </gazebo> -->
+
+
+</robot>
