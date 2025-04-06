@@ -338,13 +338,13 @@
         <mesh
           filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
-      <material
+      <!-- <material
         name="">
-        <!-- <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" /> -->
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
         <texture
           filename="file:///home/mahindra/thar_ws/src/thar_bot/textures/Wheel.dae" />
-      </material>
+      </material> -->
     </visual>
     <collision>
       <origin
@@ -396,13 +396,13 @@
         <mesh
           filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
-      <material
+      <!-- <material
         name="wheel">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
           filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
-      </material>
+      </material> -->
     </visual>
     <collision>
       <origin
