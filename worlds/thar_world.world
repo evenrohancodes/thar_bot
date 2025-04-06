@@ -11783,7 +11783,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/tent/4/mesh/tent.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/tent/4/mesh/tent.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -11842,7 +11842,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -11880,7 +11880,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -11918,7 +11918,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -11956,7 +11956,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -11994,7 +11994,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -12032,7 +12032,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -12070,7 +12070,7 @@
           <pose>0 0 0.02 0.04 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/casual female/4/meshes/casual_female.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -12415,7 +12415,7 @@
         <collision name='collision_tent'>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/tent.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/tent.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -12436,7 +12436,7 @@
           <pose>0 -1 0 0 -0 1.5708</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/antenna.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/antenna.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -12456,7 +12456,7 @@
         <visual name='visual_tent'>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/tent.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/tent.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -12464,7 +12464,7 @@
           <pose>0 2 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/rozy/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/antenna.dae</uri>
+              <uri>/home/mahindra/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models/teambase/3/meshes/antenna.dae</uri>
             </mesh>
           </geometry>
         </visual>

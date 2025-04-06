@@ -61,7 +61,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/chassisblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/chassisblender.dae" />
       </geometry>
       <material name="gray"/>
     </visual>
@@ -71,7 +71,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/base_link.STL" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/front_left_wheel.STL" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/front_left_wheel.STL" />
       </geometry>
     </collision>
   </link> 
@@ -194,7 +194,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
       <material
         name="">
@@ -208,7 +208,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/front_right_wheel.STL" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/front_right_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -265,7 +265,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
       <material
         name="">
@@ -279,7 +279,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/back_left_wheel.STL" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/back_left_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -336,14 +336,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
       <material
         name="">
         <!-- <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" /> -->
         <texture
-          filename="file:///home/rozy/thar_ws/src/thar_bot/textures/Wheel.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/textures/Wheel.dae" />
       </material>
     </visual>
     <collision>
@@ -352,7 +352,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/back_right_wheel.STL" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/back_right_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -394,14 +394,14 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
       <material
         name="wheel">
         <color
           rgba="0.79216 0.81961 0.93333 1" />
         <texture
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </material>
     </visual>
     <collision>
@@ -410,7 +410,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/rozy/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
+          filename="file:///home/mahindra/thar_ws/src/thar_bot/meshes/wheelblender.dae" />
       </geometry>
     </collision>
   </link>
